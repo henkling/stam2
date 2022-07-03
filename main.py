@@ -3,4 +3,4 @@ if __name__ == '__main__':
     print('ops')
     x = 4
     y = 45
-    s = 666
+    s = 555
