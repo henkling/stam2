@@ -12,7 +12,6 @@ resource "aws_s3_bucket" "examplebucket" {
 }
 
 resource "aws_s3_bucket_object" "examplebucket_object" {
-  server_side_encryption = "AES256"
   key                    = "someobject"
   bucket                 = aws_s3_bucket.examplebucket.id
   source                 = "index.html"
